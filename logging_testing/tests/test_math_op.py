@@ -17,7 +17,6 @@ class test_valid_count(unittest.TestCase):
 
 
     def test_valid_count_sub(self):
-        mock_author="Net, ya avtor!"
         self.assertEqual(sub(5, 6),-1)
         self.assertEqual(sub(6, 6),0)
         self.assertEqual(sub(7, 6),1)
