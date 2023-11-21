@@ -1,0 +1,6 @@
+{"data": "Add: 6.7 + 5.0 = 11.7", "funcName": "main", "lineno": 58, "exc_info": null, "exc_text": null}
+{"data": "div: 6.7 / 5.0 = 1.34", "funcName": "main", "lineno": 59, "exc_info": null, "exc_text": null}
+{"data": "div: 6.7 / 5.0 = 1.34", "funcName": "main", "lineno": 60, "exc_info": null, "exc_text": null}
+{"data": "Sub: 6.7 - 5.0 = 1.7000000000000002", "funcName": "main", "lineno": 61, "exc_info": null, "exc_text": null}
+{"data": "Mult: 6.7 * 5.0 = 33.5", "funcName": "main", "lineno": 62, "exc_info": null, "exc_text": null}
+{"data": "******** : ***********", "funcName": "main", "lineno": 63, "exc_info": null, "exc_text": null}
