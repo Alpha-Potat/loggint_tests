@@ -1,11 +1,14 @@
 import unittest
+from unittest.mock import patch
 
 from logging_testing.main import sum, sub, mult, div, main
+import logging_testing.main
 
 
 class test_valid_count(unittest.TestCase):
 
-    def test_valid_count_sum(self):
+    @patch('logging_testing.main.time.sleep')
+    def test_valid_count_sum(self, _):
 
         self.assertEqual(sum(5, 6),11)
         self.assertEqual(sum(6, 6),12)
@@ -14,7 +17,7 @@ class test_valid_count(unittest.TestCase):
 
 
     def test_valid_count_sub(self):
-
+        mock_author="Net, ya avtor!"
         self.assertEqual(sub(5, 6),-1)
         self.assertEqual(sub(6, 6),0)
         self.assertEqual(sub(7, 6),1)
@@ -43,14 +46,16 @@ class test_valid_count(unittest.TestCase):
         self.assertRaises(ValueError, div, 8, 0)
         self.assertRaises(ValueError, div, 0, 0)
 
-
-    def test_valid_exc_values(self):
+    @patch('logging_testing.main.time.sleep')
+    def test_valid_exc_values(self, _):
 
         self.assertRaises(TypeError, sum, [1,5], {'seven':'7'})
         self.assertRaises(TypeError, sub, 'seven', 0)
         self.assertRaises(TypeError, mult, (7,6), 0)
         self.assertRaises(TypeError, div, True, None)
     
-
-    def test_program_work(self):
+    @patch.object(logging_testing.main, 'sum')
+    def test_program_work(self, mock_sum):
+        mock_sum.return_value=5
         self.assertRaises(ValueError, main)
+        mock_sum.assert_called_once()

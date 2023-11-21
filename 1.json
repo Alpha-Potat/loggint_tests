@@ -4,3 +4,27 @@
 {"data": "Sub: 6.7 - 5.0 = 1.7000000000000002", "funcName": "main", "lineno": 61, "exc_info": null, "exc_text": null}
 {"data": "Mult: 6.7 * 5.0 = 33.5", "funcName": "main", "lineno": 62, "exc_info": null, "exc_text": null}
 {"data": "******** : ***********", "funcName": "main", "lineno": 63, "exc_info": null, "exc_text": null}
+{"data": "Add: 5.0 + 7.0 = 12.0", "funcName": "main", "lineno": 60, "exc_info": null, "exc_text": null}
+{"data": "div: 5.0 / 7.0 = 0.7142857142857143", "funcName": "main", "lineno": 61, "exc_info": null, "exc_text": null}
+{"data": "div: 5.0 / 7.0 = 0.7142857142857143", "funcName": "main", "lineno": 62, "exc_info": null, "exc_text": null}
+{"data": "Sub: 5.0 - 7.0 = -2.0", "funcName": "main", "lineno": 63, "exc_info": null, "exc_text": null}
+{"data": "Mult: 5.0 * 7.0 = 35.0", "funcName": "main", "lineno": 64, "exc_info": null, "exc_text": null}
+{"data": "******** : ***********", "funcName": "main", "lineno": 65, "exc_info": null, "exc_text": null}
+{"data": "Add: 6.0 + 7.0 = 13.0", "funcName": "main", "lineno": 60, "exc_info": null, "exc_text": null}
+{"data": "div: 6.0 / 7.0 = 0.8571428571428571", "funcName": "main", "lineno": 61, "exc_info": null, "exc_text": null}
+{"data": "div: 6.0 / 7.0 = 0.8571428571428571", "funcName": "main", "lineno": 62, "exc_info": null, "exc_text": null}
+{"data": "Sub: 6.0 - 7.0 = -1.0", "funcName": "main", "lineno": 63, "exc_info": null, "exc_text": null}
+{"data": "Mult: 6.0 * 7.0 = 42.0", "funcName": "main", "lineno": 64, "exc_info": null, "exc_text": null}
+{"data": "******** : ***********", "funcName": "main", "lineno": 65, "exc_info": null, "exc_text": null}
+{"data": "Add: 5.0 + 6.0 = 11.0", "funcName": "main", "lineno": 62, "exc_info": null, "exc_text": null}
+{"data": "div: 5.0 / 6.0 = 0.8333333333333334", "funcName": "main", "lineno": 63, "exc_info": null, "exc_text": null}
+{"data": "div: 5.0 / 6.0 = 0.8333333333333334", "funcName": "main", "lineno": 64, "exc_info": null, "exc_text": null}
+{"data": "Sub: 5.0 - 6.0 = -1.0", "funcName": "main", "lineno": 65, "exc_info": null, "exc_text": null}
+{"data": "Mult: 5.0 * 6.0 = 30.0", "funcName": "main", "lineno": 66, "exc_info": null, "exc_text": null}
+{"data": "******** : ***********", "funcName": "main", "lineno": 67, "exc_info": null, "exc_text": null}
+{"data": "Add: 5.0 + 6.0 = 5", "funcName": "main", "lineno": 65, "exc_info": null, "exc_text": null}
+{"data": "div: 5.0 / 6.0 = 0.8333333333333334", "funcName": "main", "lineno": 66, "exc_info": null, "exc_text": null}
+{"data": "div: 5.0 / 6.0 = 0.8333333333333334", "funcName": "main", "lineno": 67, "exc_info": null, "exc_text": null}
+{"data": "Sub: 5.0 - 6.0 = -1.0", "funcName": "main", "lineno": 68, "exc_info": null, "exc_text": null}
+{"data": "Mult: 5.0 * 6.0 = 30.0", "funcName": "main", "lineno": 69, "exc_info": null, "exc_text": null}
+{"data": "******** : ***********", "funcName": "main", "lineno": 70, "exc_info": null, "exc_text": null}

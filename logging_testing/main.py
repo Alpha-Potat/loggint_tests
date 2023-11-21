@@ -1,4 +1,5 @@
 import logging
+import time
 
 from logging_testing.formats import CustomFormatter,JSONTo, RequestsHandler
 
@@ -24,9 +25,9 @@ logger.addHandler(request_handler)
 
 
 
-
 def sum(a:(int, float), b:(int, float)) -> (int, float): 
     try:
+        time.sleep(10)
         return a+b
     except(ValueError):
         raise TypeError("Args must be int or float")
@@ -42,7 +43,6 @@ def mult(a:(int, float), b:(int, float)) -> (int, float):
             raise TypeError("Args must be int or float")
         return a*b
 
-
 def div(a:(int, float), b:(int, float)) -> (int, float): 
     try:
         return a/b
@@ -50,6 +50,7 @@ def div(a:(int, float), b:(int, float)) -> (int, float):
         raise ValueError("Value must not be zer0")
     except(ValueError):
         raise TypeError("Args must be int or float")
+
 
 def main():
     try:
